@@ -1,0 +1,380 @@
+[
+  {
+    "id": 1,
+    "name": "Bean Bag",
+    "mode": "rent",
+    "category": "Furniture",
+    "pricePerDay": 50,
+    "deliveryTime": 2,
+    "provider": "RentSway",
+    "location": "Kondhwa",
+    "keywords": [
+      "relax",
+      "seat",
+      "college",
+      "bean",
+      "bag"
+    ],
+    "images": [
+      "/uploads/beanbag.png"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "LED Lighting Set",
+    "mode": "rent",
+    "category": "Event Decor",
+    "pricePerDay": 120,
+    "deliveryTime": 1,
+    "provider": "BrightHire",
+    "location": "Wakad",
+    "keywords": [
+      "decor",
+      "lighting",
+      "event"
+    ],
+    "images": [
+      "/uploads/leds.png"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Merch Shirts",
+    "mode": "buy",
+    "category": "Printables",
+    "pricePerDay": 100,
+    "deliveryTime": 1,
+    "provider": "BrightHire",
+    "location": "Swargate",
+    "keywords": [
+      "decor",
+      "lighting",
+      "event"
+    ],
+    "images": [
+      "/uploads/tshirts.png"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Truck",
+    "mode": "rent",
+    "category": "Transport",
+    "pricePerDay": 200,
+    "deliveryTime": 3,
+    "provider": "Novelists",
+    "location": "Wakad",
+    "keywords": [
+      "truck",
+      "transport",
+      "move",
+      "pack"
+    ],
+    "images": [
+      "/uploads/bigtruck.png"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Sofa Set",
+    "mode": "rent",
+    "category": "Furniture",
+    "pricePerDay": 120,
+    "deliveryTime": 1,
+    "provider": "SS Furnitures",
+    "location": "Swargate",
+    "keywords": [
+      "sofa",
+      "sit",
+      "relax",
+      "set"
+    ],
+    "images": [
+      "/uploads/sofaset.png"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Decorative Flowers",
+    "mode": "rent",
+    "category": "Event Decor",
+    "pricePerDay": 70,
+    "deliveryTime": 1,
+    "provider": "Beautify",
+    "location": "Bibwewadi",
+    "keywords": [
+      "flower",
+      "decoration",
+      "aesthetic",
+      "decor"
+    ],
+    "images": [
+      "/uploads/flowers.png"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Mini Truck",
+    "mode": "rent",
+    "category": "Transport",
+    "pricePerDay": 120,
+    "deliveryTime": 1,
+    "provider": "Novelists",
+    "location": "Wakad",
+    "keywords": [
+      "truck",
+      "transport",
+      "move",
+      "pack"
+    ],
+    "images": [
+      "/uploads/minitruck.png"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Podium",
+    "mode": "rent",
+    "category": "Event Decor",
+    "pricePerDay": 120,
+    "deliveryTime": 1,
+    "provider": "Novelists",
+    "location": "Wakad",
+    "keywords": [
+      "podium",
+      "stand",
+      "mic",
+      "stage"
+    ],
+    "images": [
+      "/uploads/podium.png"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Cups",
+    "mode": "buy",
+    "category": "Printables",
+    "pricePerDay": 50,
+    "deliveryTime": 1,
+    "provider": "SS Novelties",
+    "location": "Bibwewadi",
+    "keywords": [
+      "cups",
+      "mugs",
+      "merch"
+    ],
+    "images": [
+      "/uploads/cups.png"
+    ]
+  },
+  {
+    "name": "Coffee Table",
+    "mode": "rent",
+    "category": "Furniture",
+    "pricePerDay": 300,
+    "deliveryTime": 1,
+    "provider": "Mr Shah",
+    "location": "Bibwewadi",
+    "keywords": [
+      "coffee",
+      "table",
+      "small",
+      "stage"
+    ],
+    "id": 11,
+    "images": [
+      "/uploads/coffeetable.webp"
+    ]
+  },
+  {
+    "name": "Folding Chair",
+    "mode": "rent",
+    "category": "Furniture",
+    "pricePerDay": 200,
+    "deliveryTime": 1,
+    "provider": "SS Chairs",
+    "location": "Katraj",
+    "keywords": [
+      "folding chair",
+      "chair",
+      "comfort"
+    ],
+    "id": 13,
+    "images": [
+      "/uploads/1749740875171-foldingchair.webp"
+    ]
+  },
+  {
+    "name": "Coffee Table",
+    "mode": "rent",
+    "category": "Furniture",
+    "pricePerDay": 200,
+    "deliveryTime": 3,
+    "provider": "Shriya",
+    "location": "Bibwewadi",
+    "keywords": [
+      "coffee table",
+      "table"
+    ],
+    "id": 13,
+    "images": [
+      "/uploads/1749752082123-coffeetable2.jpg"
+    ]
+  },
+  {
+    "name": "Van",
+    "mode": "rent",
+    "category": "Transport",
+    "pricePerDay": 100,
+    "deliveryTime": 1,
+    "provider": "Transport n more",
+    "location": "PCMC",
+    "keywords": [
+      "van",
+      "transport"
+    ],
+    "id": 14,
+    "images": [
+      "/uploads/1749755259430-van.webp"
+    ]
+  },
+  {
+    "name": "Banner Stand",
+    "mode": "rent",
+    "category": "Event Decor",
+    "pricePerDay": 100,
+    "deliveryTime": 2,
+    "provider": "RR Decors",
+    "location": "Shivaji Nagar",
+    "keywords": [
+      "banner stand",
+      "stand",
+      "banner"
+    ],
+    "id": 14,
+    "images": [
+      "/uploads/1749757255758-bannerstand.jpg"
+    ]
+  },
+  {
+    "name": "Bottles",
+    "mode": "buy",
+    "category": "Printables",
+    "pricePerDay": 80,
+    "deliveryTime": 3,
+    "provider": "SR Enterprises",
+    "location": "Katraj",
+    "keywords": [
+      "bottles",
+      "printables",
+      "bottles"
+    ],
+    "id": 15,
+    "images": [
+      "/uploads/1749760553280-bottles.webp"
+    ]
+  },
+  {
+    "name": "Cardboard Props",
+    "mode": "rent",
+    "category": "Event Decor",
+    "pricePerDay": 500,
+    "deliveryTime": 2,
+    "provider": "RRR ",
+    "location": "Bibwewadi",
+    "keywords": [
+      "painting",
+      "cardboard",
+      "props"
+    ],
+    "id": 16,
+    "images": [
+      "/uploads/1749761354038-props.jpg"
+    ]
+  },
+  {
+    "name": "Cue Cards",
+    "mode": "buy",
+    "category": "Printables",
+    "pricePerDay": 50,
+    "deliveryTime": 1,
+    "provider": "Cards Co",
+    "location": "Kondhwa",
+    "keywords": [
+      "cue",
+      "cards"
+    ],
+    "id": 17,
+    "images": [
+      "/uploads/1749763292353-cuecard.avif"
+    ]
+  },
+  {
+    "name": "Folding Chair",
+    "mode": "rent",
+    "category": "Furniture",
+    "pricePerDay": 50,
+    "deliveryTime": 2,
+    "provider": "Mrs Sinha",
+    "location": "Wakad",
+    "keywords": [
+      "folding chair",
+      "chair"
+    ],
+    "id": 18,
+    "images": [
+      "/uploads/1749795352631-foldingchair2.avif"
+    ]
+  },
+  {
+    "name": "Flowers",
+    "mode": "rent",
+    "category": "Event Decor",
+    "pricePerDay": 100,
+    "deliveryTime": 2,
+    "provider": "Mr Chawan",
+    "location": "Undri",
+    "keywords": [
+      "flowers",
+      "decoration"
+    ],
+    "id": 19,
+    "images": [
+      "/uploads/1749824501677-flowers.jpg"
+    ]
+  },
+  {
+    "name": "Coffee Table",
+    "mode": "rent",
+    "category": "Furniture",
+    "pricePerDay": 90,
+    "deliveryTime": 6,
+    "provider": "SS Furnitures",
+    "location": "wakad",
+    "keywords": [
+      "coffee table",
+      "table"
+    ],
+    "id": 20,
+    "images": [
+      "/uploads/1750330597249-coffeetable3.jpg"
+    ]
+  },
+  {
+    "name": "flags",
+    "mode": "rent",
+    "category": "Furniture",
+    "pricePerDay": 9,
+    "deliveryTime": 3,
+    "provider": "shreya",
+    "location": "wakad",
+    "keywords": [
+      "flag"
+    ],
+    "id": 21,
+    "images": [
+      "/uploads/1752830180385-flag.jpeg"
+    ]
+  }
+]

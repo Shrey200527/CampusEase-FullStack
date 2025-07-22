@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Define the character encoding and responsive behavior -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Title of the webpage -->
+  <title>About Us - CampusEase</title>
+  <!-- Link to Bootstrap CSS for styling -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    /* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #d8f9d6;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #5c4dff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.nav-toggle {
+  display: none;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: #fff;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    width: 200px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+}
+
+p {
+    font-size: large;
+}
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">CampusEase</div>
+    <button class="nav-toggle" aria-label="toggle navigation">&#9776;</button>
+    <nav class="nav-links">
+      <a href="./index.html" class="nav-link">Home</a>
+      <a href="./about.html" class="nav-link">About Us</a>
+      <a href="./team.html" class="nav-link">About the Team</a>
+      <a href="./cart.html" class="nav-link">My Cart 🛒</a>
+      <a href="./contact.html" class="nav-link">Contact Us</a>
+    </nav>
+  </header>
+
+  <!-- About Us content section -->
+  <section class="container py-5">
+    <h1 class="text-center mb-4">About Us</h1>
+    <p class="text-center mx-auto" style="max-width: 800px;">
+      CampusEase is a platform created by college students to simplify event planning. We help students find the vendors, transport, and aesthetic supplies they need to make their events memorable and stress-free.Born out of late-night brainstorms, chaotic deadlines, and endless group calls, CampusEase is the solution we wish we had when we first started organizing college events. We understand the excitement of your first freshers' party, the stress of college fests, and the chaos of managing vendors, budgets, and design ideas — all while balancing classes and exams.We created CampusEase not just as a platform, but as a companion. Whether you’re managing a cultural fest, setting up a technical conclave, or planning a themed farewell, our aim is to make the process easier, smarter, and more beautiful.
+    </p>
+  </section>
+  <section class="container py-5">
+    <h1 class="text-center mb-4">Our Story</h1>
+    <p class="text-center mx-auto" style="max-width: 800px;">
+    We started CampusEase with one simple mission — to make college event planning less chaotic and more enjoyable. Like most students, we struggled to find reliable vendors, aesthetic decoration ideas, and transportation solutions. So instead of waiting for a better system, we built one.We started CampusEase as a side project during a particularly hectic college festival. With five events running in parallel, sourcing vendors, getting approvals, and setting up decor felt nearly impossible — and that’s when the idea sparked. CampusEase was developed entirely by students from VIT Pune who understand how real and chaotic event management can be — especially when you’re juggling submissions and assignments at the same time.</p>
+  </section>
+   <section class="container py-5">
+    <h1 class="text-center mb-4">Why Choose Us?</h1>
+    <p class="text-center mx-auto" style="max-width: 800px;">
+    We understand the student experience because we are students. Every feature in CampusEase was designed with real pain points in mind — from last-minute changes to limited budgets and time. We built what we wished we had.CampusEase is a centralized, easy-to-use event planning platform tailored specifically for college students.We’re here to make sure you spend more time creating memories and less time stressing over logistics.We’re not a corporate agency — we’re a student-led team who gets what it’s like to plan events on a budget, with limited time, and no prior experience</p>
+  </section>
+
+  <!-- Footer section -->
+  <footer class="text-center py-4 bg-white border-top">
+    &copy; 2025 CampusEase. All rights reserved.
+  </footer>
+
+  <!-- Bootstrap JS for responsive components -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
